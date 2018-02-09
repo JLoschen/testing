@@ -44,17 +44,7 @@
    </div>
    <div id="main-wrapper">
 		 <main>
-			<ul data-bind="template: {name:'imgTemp', foreach:projects }" id="pic-list"></ul>
-
-
-
-
-
-
-
-
-
-		<!--	<article class="project">
+			<article class="project">
 				<div class="image-container">
 					<img class="project-pic" src="img/SuperDuperJumper2.PNG" alt="super duper jumper" >
 				</div>
@@ -225,41 +215,10 @@
 						<a href="https://github.com/JLoschen/WPF-BattleshipAI" class="project-button" >Git Hub</a>
 					</div>
 				</div>
-			</article> -->
+			</article>
 			
 		</main>
 	</div>
-	<script id="imgTemp" type="text/html">
-		<li >
-			<!-- <img data-bind="attr:{src: imgUrl}">  -->
-			<!-- <span data-bind="text: title"></span> -->
-			<article class="project">
-				<div class="image-container">
-					<img class="project-pic" data-bind="attr:{src: img}" alt="project image" >
-				</div>
-				<!-- <h3 class="project-title">Super Duper Jumper</h3> -->
-				<h1 class="project-title" data-bind="text: title"></h1>
-				<label class="proud" data-bind="text: proud"></label>
-				<!-- <label class="date">Date Completed</label> -->
-				<label class="date" data-bind="text: date"></label>
-				<p class="tech-used" data-bind="text: summary">This Android app was an extension of a starter project from the book <a href="https://www.apress.com/us/book/9781430230427">Beginning Android Programming</a>. 
-					I only had 2 years of CS under my belt at the time and this was the first thing I programmed because I wanted to and not for an assignment. 
-					I added way too many concepts and everyone I’ve coerced into playing the game has been confused as to what exactly is going on. 
-					This project taught me to <a href="https://en.wikipedia.org/wiki/KISS_principle">KISS</a>.</p>
-				<p class="summary">This Android app was an extension of a starter project from the book <a href="https://www.apress.com/us/book/9781430230427">Beginning Android Programming</a>. 
-					I only had 2 years of CS under my belt at the time and this was the first thing I programmed because I wanted to and not for an assignment. 
-					I added way too many concepts and everyone I’ve coerced into playing the game has been confused as to what exactly is going on. 
-					This project taught me to <a href="https://en.wikipedia.org/wiki/KISS_principle">KISS</a>.</p>
-					<div class="buttons">
-						<a href="https://play.google.com/store/apps/details?id=com.joshloschen.androidapps.jumper&hl=en" class="project-button" >View</a>
-					</div>
-					<div class="buttons">
-						<a href="https://github.com/JLoschen/UdacityNeighborhoodMap" class="project-button" >Git Hub</a>
-					</div>
-			</article>
-		</li> 
-   </script> 
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.2/knockout-debug.js"></script>
 	<script src="js/app.js"> </script>
 </body>
 </html>
