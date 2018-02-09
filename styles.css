@@ -130,8 +130,6 @@ hr {
 
 .project h3{
     text-align:center;
-    
-    background:red;
 }
 
 .proud, .date {
@@ -256,3 +254,17 @@ hr {
     background-position: 0px 2px;
 }
 /* end link transition */
+
+/* Start how proud stars */
+.stars li {
+	list-style: none;
+	display: inline-block;
+}
+
+.stars {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	margin: 0 10px 0 10px;
+}
+/* End how proud */
