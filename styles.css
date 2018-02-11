@@ -14,8 +14,12 @@ hr {
 
 #maindiv {
     width: 100%;
-    height: 500px;
-    background-image: url('img/codeBackground4.png');
+    height: 510px;
+    /* background-image: url('img/codeBackground4.png'); */
+    /* background-image: url('img/codeBackground2DarkPicCropped.png'); */
+    /* background-image: url('img/Background Dark.png'); */
+    /* background-image: url('img/BackgroundBlended.png'); */
+    background-image: url('img/Background Section.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -70,7 +74,7 @@ hr {
     position: absolute;
     left: 0;
     right: 0;
-    top: 350px;
+    top: 435px;
     margin: auto;
 }
 
@@ -80,7 +84,7 @@ hr {
 
 #main-wrapper {
     top:700px;
-    padding:40px 10px;
+    padding:40px 150px;
     background:#fcfbf7; 
 }
 
@@ -97,6 +101,7 @@ hr {
     grid-gap:1em;
     /* grid-auto-columns: min-content; */
     grid-auto-columns:150px;
+    min-height: 530px;
 }
 
 .image-container{
@@ -104,7 +109,7 @@ hr {
     grid-row: 1/6;
     /* line-height: 115px; */
     text-align: center;
-    background-color:blue;
+    /* background-color:blue; */
 }
 
 .helper {
@@ -121,6 +126,7 @@ hr {
     max-height:100%;
     max-width:100%;
     z-index: 1;
+    border-radius: 10px;
 }
 
 .project-text {
@@ -268,3 +274,41 @@ hr {
 	margin: 0 10px 0 10px;
 }
 /* End how proud */
+
+/* tooltip start */
+/* https://www.youtube.com/watch?v=Al01BpmGaIA */
+.tooltip a{
+    display: block;
+    width: 100px;
+    border: 1px solid #fff;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+.tooltip span{
+    margin-top: 10px;
+    display:none;
+}
+
+.tooltip:hover span{
+    display: block;
+    width: 200px;
+    padding: 10px 10px; 
+    border: 1px solid #fff;
+    color: #220;
+    margin-left: -50px;
+    background: #fff;
+}
+
+.tooltip:hover:after{
+    content: " ";
+    background: #fff;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: -70px;
+    transform: rotate(45deg);
+}
