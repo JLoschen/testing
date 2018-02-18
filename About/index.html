@@ -2,46 +2,107 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<!-- <title>Josh Loschen</title> -->
-	<title>About</title>
+	<title>About Me</title>
 	<meta content="" name="description">
     <meta name="viewport" content ="width=device-width,initial-scale=1,user-scalable=yes" />
 
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet prefetch">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-	<!-- favicon from https://realfavicongenerator.net/ -->
-	<link rel="apple-touch-icon" sizes="180x180" href="../favicon2/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="../favicon2/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="../favicon2/favicon-16x16.png">
-	<link rel="manifest" href="../favicon2/site.webmanifest">
-	<link rel="mask-icon" href="../favicon2/safari-pinned-tab.svg" color="#5bbad5">
-	<meta name="msapplication-TileColor" content="#da532c">
-	<meta name="theme-color" content="#ffffff">
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/app.js"></script>
+	<link rel="stylesheet" href="css/styles.css">
 	<link rel="stylesheet" href="../styles.css">
+
 </head>
 <body>
-	<div id="navdiv">
-		<ul>
-			 <img src="../img/JL Logo4.png" alt="logo">
-			 	<li><a href="https://www.linkedin.com/in/joshua-loschen-1b524159/">Linked In</a></li>
-				<li><a href="https://jloschen.github.io/testing/Resu/">Resume</a></li>
-				<li><a href="https://jloschen.github.io/testing/About/">About</a></li>
-				<li><a href="../index.html">Sample Projects</a></li>
-		</ul>
-	</div>
-   <div id="maindiv">
-	   <div id="header-div">
-		   <header>
-			   <h1>Josh Loschen</h1>
-		   </header>
-		   <p>This is some text about Josh</p>
-	   </div>
+		<div id="navdiv">
+			<ul>
+					<img src="../img/JL Logo4.png" alt="logo">
+						<li><a href="https://www.linkedin.com/in/joshua-loschen-1b524159/">Linked In</a></li>
+					<li><a href="https://jloschen.github.io/testing/Resu/">Resume</a></li>
+					<li><a href="https://jloschen.github.io/testing/About/">About</a></li>
+					<li><a href="../index.html">Sample Projects</a></li>
+			</ul>
+		</div>
+		<div id="maindiv">
+			<div id="header-div">
+				<header>
+					<h1>Josh Loschen</h1>
+				</header>
+				<p>This is some text about Josh</p>
+			</div>
+		</div>
+
+	<div style="position: absolute; width: 100%; height: 10642px; background-color:#f7f7ef;"></div>
+   <div id="scroll-wrapper" style="position:fixed; width: 100%; height:100%; overflow: hidden;">
+	   	<!-- pointer from left -->
+		<img id="pointer-hand" style="z-index: 1; left: 2000px; top: 1500px; opacity: 1;" src="img/Hands/PointerHand.PNG">
+		<img id="pointer-text" style="z-index: 0; left: 2000px; top: 1500px; opacity: 0.05;" src="img/MyText/text1.PNG">
+
+		<!-- 1 -->
+		<img id="fade1" style="left: 1000px; top: 1500px; opacity: 0;" src="img/MyText/text2.PNG" >
+
+		<!-- green hand from right -->
+		<img id="greenHand" style="left: 2000px; top: 1500px; " src="img/Hands/Green Hand Clear.PNG" >
+		<img id="pinch-text" style=" z-index: 0; left: 2000px; top: 1500px;" src="img/MyText/text3.PNG" >
+
+		<!-- 2 -->
+		<img id="fade2" style="z-index: 0; left: 1000px; top: 1500px; opacity: 0;" src="img/MyText/text4.PNG">
+
+		<!-- double pinch orange hands -->
+		<img id="orange-text" style=" z-index: 0; left: 1000px; top: 1500px;" src="img/MyText/text5.PNG">
+		<img id="orange-left" style="z-index: 1; left: 1000px; top: 1500px;" src="img/Hands/Orange Left5.PNG">
+		<img id="orange-right" style="z-index: 1; left: 1000px; top: 1500px;" src="img/Hands/Orange Right5.PNG">
+
+		<!-- 3 -->
+		<img id="fade3" style="z-index: 0; left: 1000px; top: 1500px;" src="img/MyText/text6.PNG">
+
+		<!-- straight blue hand -->
+		<img id="blueHand" style="z-index: 1; left: 1000px; top: 1500px;" src="img/Hands/FlatHandBlue.PNG" >
+		<img id="blue-hand-text" style="z-index: 0; left: 1000px; top: 1500px;" src="img/MyText/text7.PNG">
+		
+		<!-- yellow pushing hand -->
+		<img id="push-hand" style="z-index: 1; left: 1000px; top: 1500px;" src="img/Hands/PushHand.PNG">
+		<img id="push-text" style="z-index: 0; left: 1000px; top: 1500px;" src="img/MyText/text8.PNG">
+
+		<!-- green palm -->
+		<img id="palm-hand" style="z-index: 1; left: 1000px; top: 1500px;" src="img/Hands/GreenPalm.PNG">
+		<img id="palm-text" style="z-index: 0; left: 1000px; top: 1500px;" src="img/MyText/text9.PNG">
+
+		<!-- 4 -->
+		<img id="fade4" style="z-index: 0; left: 1000px; top: 1500px; opacity: 1;" src="img/MyText/text10.PNG">
+
+		<!-- chain -->
+		<img id="chain" style="z-index: 0; left: 1000px; top: 1500px;" src="img/Hands/chain.PNG">
+		<img id="chain-text" style="z-index: 0; left: 1000px; top: 1500px;" src="img/MyText/text11.PNG">
+
+		<!-- 5 -->
+		<img id="fade5" style="z-index: 0; left: 1000px; top: 1500px; opacity: 1;" src="img/MyText/text12.PNG">
+
+		<!-- stone -->
+		<img id="stone-text" style="z-index: 0; left: 1000px; top: 1500px;" src="img/MyText/text13.PNG">
+		<img id="stone" style="position: absolute; z-index: 0; left: 1000px; top: 1500px; opacity: 1;" src="img/Hands/stone_1.PNG"> 
+
+		<!-- 6 -->
+		<img id="fade6" style="z-index: 0; left: 1000px; top: 1500px; opacity: 1;" src="img/MyText/text14.PNG">
+
+		<!-- straight double hands -->
+		<img id="double-hand-text" style="z-index: 0; left: 1000px; top: 1500px;" src="img/MyText/text15.PNG">
+		<img id="purple-hand" style="z-index: 1; left: 1000px; top: 1500px; " src="img/Hands/FlatHandPurpleRight.PNG">
+		<img id="double-hand-left" style="z-index: 1; left: 1000px; top: 1500px;" src="img/Hands/FlatHandPurpleLeft.PNG">
+
+		<!-- jet from left -->
+		<img id="jet" style="z-index: 1; left: 1000px; top: 1500px;" src="img/Hands/jet.PNG">
+		<img id="jet-text" style="z-index: 0; left: 1000px; top: 1500px;" src="img/MyText/text16.PNG">
+
+		<footer id="footer" style="z-index: 0; left: 0px; top: 1500px;">
+			<div class="wrapper">
+				<nav>
+					<ul>
+						<li><a href="https://www.uwstout.edu/">UW-Stout</a></li>
+						<li><a href="https://www.menards.com/">Menards</a></li>
+						<li><a href="http://slaveryfootprint.org/">Site I got this design from</a></li>
+					</ul>
+				</nav>
+			</div>
+		</footer>
    </div>
-   <!-- <div id="about"> -->
-		<main id="about">
-			<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque quo iste soluta temporibus eum cumque, esse officia quos, porro modi deserunt suscipit dolores provident sint dolor dolore autem harum error.</p>
-		</main>
-	<!-- </div> -->
 </body>
