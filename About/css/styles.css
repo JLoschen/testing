@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Vollkorn');
+body {
+    font-family: arial, sans-serif;
+}
+
 *{
     margin:0;
     padding:0;
@@ -9,6 +14,7 @@ footer{
     padding: -100px;
     height: 100px;
     position:absolute;
+    /* color: #f7f7ef; */
 }
 
  #footer .wrapper {
@@ -31,10 +37,11 @@ footer nav ul li a{
     font-family: Lato;
     font-weight: 400;
     font-size: 14px;
-    color: white;
+    /* color: white; */
+    /* color: #f7f7ef; */
 }
 
-div img{
+#scroll-wrapper img{
     border:0;
     position: absolute;
 }
@@ -42,3 +49,104 @@ div img{
 #scroll-wrapper div{
     position:absolute;
 }
+
+/* Added for top nav image */
+#maindiv {
+    width: 100%;
+    height: 510px;
+    /* background-image: url('img/codeBackground4.png'); */
+    /* background-image: url('img/codeBackground2DarkPicCropped.png'); */
+    /* background-image: url('img/Background Dark.png'); */
+    /* background-image: url('img/BackgroundBlended.png'); */
+    background-image: url('../../img/Background Section.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#navdiv {
+    /* position: fixed; */
+    position: absolute;
+    background:rgba(0, 0, 0, 0.4);
+    width:100%;
+    z-index: 2;
+}
+
+#navdiv ul {
+    height: 60px;
+    line-height: 70px;
+    color: white;
+    margin-right:15px;
+}
+
+#navdiv ul a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+
+#navdiv ul li{
+    list-style-type: none;
+    display: inline-block;
+    float: right;
+}
+
+#navdiv ul li:hover{
+    background:rgba(100, 100, 100, 0.4);
+    transition: all 0.40s ;
+}
+
+#navdiv h1{
+    width: 300px;
+    float: left;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+#header-div{
+    text-align:center;
+    display:block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 435px;
+    margin: auto;
+}
+
+ #header-div header, #header-div p{
+    color:rgb(235, 235, 235);
+ }
+
+  /* link style from www.si.com */
+ /* link animation */
+ #footer .wrapper a{
+    background-image: linear-gradient(180deg,transparent 0,#ffb900 0);
+    -webkit-transition: background-position .15s ease-out;
+    -moz-transition: background-position .15s ease-out;
+    -ms-transition: background-position .15s ease-out;
+    -o-transition: background-position .15s ease-out;
+    transition: background-position .15s ease-out;
+    /* background-position: 0 25px; */
+    background-position: 0 23px;
+    background-repeat: no-repeat;
+    box-shadow: none;
+    padding: 0;
+    /* color: #595352; */
+    color: #f7f7ef;
+    cursor:pointer;
+    text-decoration: none;
+    font-size: 20px;
+    /* text-align: center;
+    align-content: center; */
+}
+
+#footer .wrapper a:hover {
+    text-decoration: none;
+    background-position: 0px 2px;
+}
+
+/* .project p a:hover {
+    text-decoration: none;
+    background-position: 0px 2px;
+} */
+/* end link transition */
