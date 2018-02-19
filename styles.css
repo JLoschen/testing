@@ -86,9 +86,11 @@ hr {
     /* max-height:400px; */
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
-    /* grid-template-rows: 2fr 1fr 1fr 2fr 1fr 1fr; */
-    grid-template-rows: 50px 10px 1fr auto auto;
+    /* grid-template-rows: 50px 10px 1fr auto auto; */
+    grid-template-rows: 50px  1fr  auto auto;
+    /* 10px */
     grid-gap:1em;
+
     /* grid-auto-columns: min-content; */
     grid-auto-columns:150px;
     min-height: 530px;
@@ -100,6 +102,11 @@ hr {
     /* line-height: 115px; */
     text-align: center;
     /* background-color:blue; */
+}
+
+.bottom-row{
+    display:flex;
+    grid-column: 2/4;
 }
 
 .helper {
@@ -131,6 +138,7 @@ hr {
 .proud, .date {
     text-align: center;
     align-self: baseline;
+    flex:1;
     /* height:90px; */
     /* background: #3b55a0; */
 }
@@ -175,6 +183,7 @@ hr {
 
 .buttons{
     text-align: center;
+    flex:1;
     /* background: #595352; */
 }
 
@@ -261,7 +270,8 @@ hr {
 	margin: 0;
 	padding: 0;
 	display: inline-block;
-	margin: 0 10px 0 10px;
+    margin: 0 10px 0 10px;
+    flex:1;
 }
 /* End how proud */
 
