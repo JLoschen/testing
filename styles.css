@@ -15,10 +15,6 @@ hr {
 #maindiv {
     width: 100%;
     height: 510px;
-    /* background-image: url('img/codeBackground4.png'); */
-    /* background-image: url('img/codeBackground2DarkPicCropped.png'); */
-    /* background-image: url('img/Background Dark.png'); */
-    /* background-image: url('img/BackgroundBlended.png'); */
     background-image: url('img/Background Section.png');
     background-position: center;
     background-repeat: no-repeat;
@@ -26,7 +22,7 @@ hr {
 }
 
 #navdiv {
-    /* position: fixed; */
+    position: fixed;
     background:rgba(0, 0, 0, 0.4);
     width:100%;
     z-index: 2;

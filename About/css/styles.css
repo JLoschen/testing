@@ -58,6 +58,7 @@ footer nav ul li a{
 }
 
 #navdiv {
+    
     background:rgba(0, 0, 0, 0.4);
     width:100%;
     z-index: 2;
@@ -89,13 +90,6 @@ footer nav ul li a{
     transition: all 0.40s ;
 }
 
-/* #navdiv h1{
-    width: 300px;
-    float: left;
-    cursor: pointer;
-    margin-left: 15px;
-} */
-
 #header-div{
     text-align:center;
     display:block;
@@ -126,7 +120,6 @@ footer nav ul li a{
     -ms-transition: background-position .15s ease-out;
     -o-transition: background-position .15s ease-out;
     transition: background-position .15s ease-out;
-    /* background-position: 0 25px; */
     background-position: 0 22px;
     background-repeat: no-repeat;
     box-shadow: none;
