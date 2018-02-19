@@ -89,12 +89,12 @@ footer nav ul li a{
     transition: all 0.40s ;
 }
 
-#navdiv h1{
+/* #navdiv h1{
     width: 300px;
     float: left;
     cursor: pointer;
     margin-left: 15px;
-}
+} */
 
 #header-div{
     text-align:center;

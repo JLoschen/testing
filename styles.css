@@ -57,13 +57,6 @@ hr {
     transition: all 0.40s ;
 }
 
-#navdiv h1{
-    width: 300px;
-    float: left;
-    cursor: pointer;
-    margin-left: 15px;
-}
-
 .second-row{
     display:flex;
 }
