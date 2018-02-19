@@ -14,7 +14,6 @@ footer{
     padding: -100px;
     height: 100px;
     position:absolute;
-    /* color: #f7f7ef; */
 }
 
  #footer .wrapper {
@@ -37,8 +36,6 @@ footer nav ul li a{
     font-family: Lato;
     font-weight: 400;
     font-size: 14px;
-    /* color: white; */
-    /* color: #f7f7ef; */
 }
 
 #scroll-wrapper img{
@@ -54,10 +51,6 @@ footer nav ul li a{
 #maindiv {
     width: 100%;
     height: 510px;
-    /* background-image: url('img/codeBackground4.png'); */
-    /* background-image: url('img/codeBackground2DarkPicCropped.png'); */
-    /* background-image: url('img/Background Dark.png'); */
-    /* background-image: url('img/BackgroundBlended.png'); */
     background-image: url('../../img/Background Section.png');
     background-position: center;
     background-repeat: no-repeat;
@@ -65,11 +58,10 @@ footer nav ul li a{
 }
 
 #navdiv {
-    /* position: fixed; */
-    position: absolute;
     background:rgba(0, 0, 0, 0.4);
     width:100%;
     z-index: 2;
+    font-size: 1.1em;
 }
 
 #navdiv ul {
@@ -83,6 +75,7 @@ footer nav ul li a{
     text-decoration: none;
     color: white;
     padding: 15px;
+    line-height: 70px;
 }
 
 #navdiv ul li{
@@ -113,6 +106,13 @@ footer nav ul li a{
     margin: auto;
 }
 
+ #header-div{
+    font-family: Vollkorn,Helvetica,Arial,sans-serif;
+    font-size: 1.3em;
+    line-height: 1.7em;
+    color: #595352;
+}
+
  #header-div header, #header-div p{
     color:rgb(235, 235, 235);
  }
@@ -127,7 +127,7 @@ footer nav ul li a{
     -o-transition: background-position .15s ease-out;
     transition: background-position .15s ease-out;
     /* background-position: 0 25px; */
-    background-position: 0 23px;
+    background-position: 0 22px;
     background-repeat: no-repeat;
     box-shadow: none;
     padding: 0;
@@ -136,17 +136,10 @@ footer nav ul li a{
     cursor:pointer;
     text-decoration: none;
     font-size: 20px;
-    /* text-align: center;
-    align-content: center; */
 }
 
 #footer .wrapper a:hover {
     text-decoration: none;
     background-position: 0px 2px;
 }
-
-/* .project p a:hover {
-    text-decoration: none;
-    background-position: 0px 2px;
-} */
 /* end link transition */

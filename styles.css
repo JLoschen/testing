@@ -26,10 +26,11 @@ hr {
 }
 
 #navdiv {
-    position: fixed;
+    /* position: fixed; */
     background:rgba(0, 0, 0, 0.4);
     width:100%;
     z-index: 2;
+    font-size: 1.1em;
 }
 
 #navdiv ul {
