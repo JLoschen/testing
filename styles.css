@@ -74,7 +74,8 @@ hr {
 
 #main-wrapper {
     top:700px;
-    padding:40px 150px;
+    /* padding:40px 150px; */
+    padding:40px 275px;
     background:#fcfbf7; 
 }
 
@@ -142,19 +143,24 @@ hr {
     grid-column: 2/4;
 }
 
-.project, #header-div{
+.project, #header-div, #intro{
     font-family: Vollkorn,Helvetica,Arial,sans-serif;
     font-size: 1.3em;
     line-height: 1.7em;
     color: #595352;
 }
 
-.project-text p::first-letter{
+#intro{
+    padding: 0 0 20px 0;
+}
+
+/* .project-text p::first-letter{ */
+.summary::first-letter{
     display:block;
     float: left;
     font-size: 3em;
     line-height: 0.8em;
-    padding: 0 10px;
+    padding: 10px 10px 0px;
     color: tan;
     font-weight: bold;
 }
@@ -164,19 +170,23 @@ hr {
     flex:1;
 }
 
+ /*small browser resizing*/
+ @media (max-width: 2000px) {    
+    #main-wrapper {
+        padding:40px 175px;
+    }    
+}
+
 /*tablet resizing*/
 @media (max-width: 1380px) {
     #main-wrapper{
-         background:red;
+         /* background:red; */
          padding:40px 40px;
      }
 
  }
  
- /*mobile resizing*/
- @media (max-width: 520px) {
-     
- }
+
 
  /* facebook style button */
  /* https://www.youtube.com/watch?v=7ilBPlUKJRI */
@@ -209,7 +219,7 @@ hr {
 
  /* link style from www.si.com */
  /* link animation */
- .project p a{
+ .project p a, #intro a{
     background-image: linear-gradient(180deg,transparent 0,#ffb900 0);
     -webkit-transition: background-position .15s ease-out;
     -moz-transition: background-position .15s ease-out;
@@ -223,16 +233,9 @@ hr {
     color: #595352;
     cursor:pointer;
     text-decoration: none;
-    /* text-align: center;
-    align-content: center; */
 }
 
-.project-text p a:hover {
-    text-decoration: none;
-    background-position: 0px 2px;
-}
-
-.project p a:hover {
+.project p a:hover, #intro a:hover {
     text-decoration: none;
     background-position: 0px 2px;
 }
